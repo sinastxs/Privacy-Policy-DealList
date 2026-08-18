@@ -1,5 +1,11 @@
 # DealList Terms of Use
 
+This document has moved to:
+
+https://deallist.ca/TERMS_OF_USE/
+
+---
+
 Effective date: July 18, 2026
 
 These Terms of Use ("Terms") apply to your use of DealList (the "App"). By using the App, you agree to these Terms. If you do not agree, please do not use the App.
@@ -55,7 +61,7 @@ These third-party services may have their own terms and privacy policies. DealLi
 
 Your use of the App is also governed by our Privacy Policy:
 
-https://sinastxs.github.io/Privacy-Policy-DealList/
+https://deallist.ca/Privacy-Policy-DealList/
 
 ## 9. App Updates and Changes
 
