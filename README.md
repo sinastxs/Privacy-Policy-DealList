@@ -1,23 +1,5 @@
 # Privacy Policy for DealList
 
-This repository has been merged into the official DealList website.
-
-Current Privacy Policy:
-
-https://deallist.ca/Privacy-Policy-DealList/
-
-Current Terms of Use:
-
-https://deallist.ca/TERMS_OF_USE/
-
-Support:
-
-info@deallist.ca
-
----
-
-The historical Privacy Policy content below is kept for reference only.
-
 **Last updated: July 02, 2026**
 
 DealList ("we", "our", or "us") operates the DealList mobile application (the "Service"). We are committed to protecting your privacy. This Privacy Policy explains our practices regarding data collection and storage for our application.
