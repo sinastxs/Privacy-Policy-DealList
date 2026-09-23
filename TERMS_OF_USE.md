@@ -1,6 +1,6 @@
 # DealList Terms of Use
 
-Effective date: July 18, 2026
+Effective date: September 22, 2026
 
 These Terms of Use ("Terms") apply to your use of DealList (the "App"). By using the App, you agree to these Terms. If you do not agree, please do not use the App.
 
@@ -18,6 +18,10 @@ DealList works to keep information accurate and up to date, but we do not guaran
 
 Before making a purchase, you should confirm the final price, promotion terms, availability, taxes, fees, and product details directly with the retailer.
 
+StatCan references for Canada and BLS references for the United States are statistical averages for the stated geography, food specification, currency and month. They are not a retailer's regular/original price, a guaranteed offer, or a price for an exact branded product. Regional coverage may be missing or older; a labeled national fallback may be shown for BLS. Retrieval dates are not observation dates. Quantity and unit conversions are estimates, not observed package prices. ZIP-based region selection is a convenience and can be changed manually.
+
+Search matching, recipe interpretation and translations may use automated systems, including Google Gemini and translation services. They can make mistakes. Verify ingredients, allergens, quantities and product details against the original product information; these features are not medical or dietary advice.
+
 ## 3. No Retailer Affiliation
 
 DealList is an independent app. Unless clearly stated otherwise, DealList is not affiliated with, endorsed by, sponsored by, or officially connected to any grocery store, retailer, brand, flyer provider, or data provider shown in the App.
@@ -29,7 +33,7 @@ Retailer names, product names, logos, images, and trademarks belong to their res
 You agree to use the App lawfully and responsibly. You must not:
 
 - misuse, interfere with, or attempt to disrupt the App or its services;
-- attempt to reverse engineer, scrape, overload, or abuse the App's systems;
+- bypass access controls, scrape or overload the App's services, or reverse engineer them except where applicable law permits;
 - use the App to violate any law, third-party right, or retailer policy;
 - submit false, harmful, abusive, or misleading bug reports or feedback.
 
@@ -37,7 +41,9 @@ You agree to use the App lawfully and responsibly. You must not:
 
 DealList may offer optional paid subscriptions or purchases, including ad removal.
 
-Subscription billing, cancellation, renewals, refunds, and payment processing are handled by the applicable app store or payment provider, such as Google Play, Apple, or RevenueCat-supported services.
+The purchase screen and applicable app store specify the price, duration and renewal terms. Recurring subscriptions renew under the terms shown at purchase unless cancelled through that store. A one-time ad-removal purchase is not a recurring subscription. Billing, cancellations and refunds follow the applicable store's procedures and mandatory consumer rights. RevenueCat verifies and manages purchase entitlements; it is not the processor receiving your payment-card details.
+
+Uninstalling DealList does not cancel a subscription. Use the original store account to restore eligible purchases; cross-platform transfers are not promised unless explicitly offered. Ad-free access removes the covered in-app advertising, not all analytics, security or purchase-verification processing.
 
 If you subscribe, your access to subscription benefits may depend on your app store account, payment status, device platform, and the availability of third-party subscription services.
 
@@ -53,13 +59,13 @@ These third-party services may have their own terms and privacy policies. DealLi
 
 ## 8. Privacy
 
-Your use of the App is also governed by our Privacy Policy:
+The collection and handling of data, including advertising identifiers, analytics, purchase records, online search and translation inputs, and optional support submissions, are described in our Privacy Policy. Local shopping-list storage does not mean all app processing stays on your device:
 
-https://sinastxs.github.io/Privacy-Policy-DealList/
+https://deallist.ca/Privacy-Policy-DealList/
 
 ## 9. App Updates and Changes
 
-We may update, modify, suspend, or discontinue any part of the App at any time. We may also update these Terms from time to time. Continued use of the App after changes means you accept the updated Terms.
+We may update, modify, suspend, or discontinue any part of the App at any time. We may also update these Terms from time to time. We will publish revised Terms with an updated date and provide additional notice or obtain acceptance where required. Changes do not override existing purchase commitments or mandatory consumer rights.
 
 ## 10. Disclaimer of Warranties
 
@@ -73,7 +79,9 @@ To the fullest extent permitted by law, DealList and its developer will not be l
 
 This includes, without limitation, losses related to incorrect prices, expired promotions, unavailable products, retailer changes, app errors, data delays, third-party services, or purchasing decisions made using information from the App.
 
+Nothing in these Terms excludes or limits rights or liabilities that cannot lawfully be excluded or limited, including applicable consumer protections.
+
 ## 12. Contact
 
-For support or bug reports, please use the "Report a bug" option in the App settings.
+For support, bug reports or privacy questions, use "Report a bug" in the App settings or email [info@deallist.ca](mailto:info@deallist.ca).
 
