@@ -1,10 +1,10 @@
 # Privacy Policy for DealList
 
-Last updated: September 22, 2026
+Last updated: September 23, 2026
 
-DealList ("we", "our", or "us") provides grocery search, flyer browsing, shopping lists and price references. This policy explains how DealList and its connected services handle information. Contact the DealList developer at [info@deallist.ca](mailto:info@deallist.ca) with privacy questions.
+DealList ("we", "our", or "us") provides grocery search, flyer browsing, shopping lists and price references. This policy covers DealList for iOS and Android and its connected services. Some processing differs by platform and the features you use, as explained below. Contact the DealList developer at [info@deallist.ca](mailto:info@deallist.ca) with privacy questions.
 
-Shopping lists and preferences are primarily stored on your device. However, DealList does not operate without data collection: online search, translation, advertising, analytics, purchase verification and support send information off your device. No DealList account registration or login is required. App-store accounts and anonymous subscription identifiers are separate from a DealList login.
+Shopping lists and preferences are primarily stored on your device. However, DealList does not operate without data collection: online search, online translation, advertising, analytics, purchase verification and support can send information off your device, depending on the platform and features used. No DealList account registration or login is required. App-store accounts and anonymous subscription identifiers are separate from a DealList login.
 
 ## 1. Information processed and purposes
 
@@ -14,25 +14,29 @@ Saved shopping lists, selections, preferences and caches are primarily stored in
 
 ### Region and approximate location
 
-We process the country and postal or ZIP code you enter to select regional flyers, results and price references. Regional data requests, online searches and support submissions can transmit your region or postal code to our services. Network services receive IP addresses; advertising and analytics providers may derive approximate location from them. DealList does not request GPS-based precise location for these features.
+We process the country and postal or ZIP code you enter to select regional flyers, results and price references. Regional data requests and support submissions can transmit your region or postal code to our services. Search requests may also include regional information depending on the platform; the current iOS AI interpretation request sends the entered text and target language, without a separate postal-code field. Network services receive IP addresses; advertising and analytics providers may derive approximate location from them. DealList does not request GPS-based precise location for these features.
 
 The BLS ZIP-to-region lookup runs locally using a bundled mapping and does not send your ZIP to GeoNames or BLS. Downloading public price data still involves normal network connections.
 
 ### Search and translation
 
-Online search sends your search text, selected language and postal code to our backend. The search service sends the search text to Google's Gemini service to interpret grocery items or recipe ingredients. Translation sends relevant input, product names or other text and language settings to Google translation services, directly or through our backend. Translations may be cached to reduce repeated requests.
+AI search sends your entered text and selected language to our backend. The current iOS AI request does not separately include your postal or ZIP code; regional flyer and product requests are handled separately. Other platform search requests may include a postal code. The search service sends your text to Google's Gemini service to interpret grocery items or recipe ingredients.
+
+On supported iOS versions, Apple Translation is the default translation option and uses Apple's system translation framework. It may require downloading language resources. When you select a Google translation option, relevant input, product names or other text and language settings are sent to Google translation services, directly or through our backend. Translation results may be cached to reduce repeated processing. Choosing Apple Translation does not change the use of Gemini for AI search.
 
 Google processes submitted content under the terms applicable to each service. Gemini's content use and retention differ between paid and unpaid services. Unpaid-service terms permit product improvement and human review of submitted content and responses; paid-service terms provide different protections and allow limited safety-related retention. Do not include sensitive personal information, passwords, payment details or confidential material in grocery searches or translation requests. We do not promise that every request is immediately deleted after its response.
 
 ### Advertising
 
-DealList uses Google AdMob to display ads. Its SDK automatically processes advertising and app-set identifiers, IP addresses, app/ad interactions, and diagnostic or performance information. Google collects and shares this information for advertising, measurement, analytics and fraud prevention. Device settings and applicable advertising choices affect some processing; resetting an advertising ID does not stop all SDK processing.
+DealList uses Google AdMob to display ads. Its SDK processes IP addresses, app/ad interactions, diagnostic or performance information, and advertising or other app/device identifiers available on the relevant platform. Access to an iOS advertising identifier (IDFA) depends on the applicable system authorization; other identifiers and SDK processing may still be available without IDFA. Google collects and shares this information for advertising, measurement, analytics and fraud prevention. Device settings and applicable advertising choices affect some processing; resetting an advertising ID does not stop all SDK processing.
 
 An ad-free purchase removes the in-app ads covered by the purchase. It does not by itself disable purchase verification, analytics, security checks or every SDK initialization and network request.
 
 ### Analytics, diagnostics and security
 
-DealList integrates Firebase Analytics and Google services to understand usage and performance. They can process app interactions, app/installation identifiers, device and software information, approximate regional information and diagnostics. Firebase App Check and Google Play Integrity process app/device integrity information and verification tokens to help verify requests and prevent abuse. Hosting services may record IP addresses, request times, response status and errors for operation and security.
+Analytics and integrity services differ by platform. The Android version uses Firebase Analytics and Google services, which can process app interactions, app/installation identifiers, device and software information, approximate regional information and diagnostics. Where enabled on Android, Firebase App Check and Google Play Integrity process app/device integrity information and verification tokens to help verify requests and prevent abuse.
+
+The current native iOS version does not integrate the Firebase Analytics or Firebase App Check SDKs and does not use Google Play Integrity. It accesses Firebase Firestore through online requests for app data and support submissions. AdMob on iOS still processes advertising measurement, interaction, diagnostic and performance information as described above. Hosting services may record IP addresses, request times, response status and errors for operation and security.
 
 ### Purchases and subscriptions
 
@@ -44,12 +48,14 @@ If you submit feedback, we receive the name and email you provide, category, mes
 
 ## 2. Recipients and service providers
 
-Information is processed by the DealList developer and providers supporting these features, including Google Firebase/Google Cloud, Google Analytics, AdMob, Google translation and Gemini services, RevenueCat, app stores and our support email provider. Providers acting on our behalf process information to deliver services; advertising and other Google services also process information under their applicable terms and policies. We may disclose information when required by law or reasonably necessary to address fraud, security incidents or threats to users.
+Information is processed by the DealList developer and providers supporting these features, including Google Firebase/Google Cloud, Google Analytics on supported platforms, AdMob, Google translation and Gemini services, Apple system translation services on supported iOS versions, RevenueCat, app stores and our support email provider. Which providers receive information depends on your platform and the features you use. Providers acting on our behalf process information to deliver services; advertising and other Google services also process information under their applicable terms and policies. We may disclose information when required by law or reasonably necessary to address fraud, security incidents or threats to users.
 
 We do not sell personal information for money. The advertising-related collection and sharing described above still occurs; this is not a claim that no data leaves your device or is shared with advertising services.
 
 - [Google Privacy Policy](https://policies.google.com/privacy)
-- [Google Mobile Ads data disclosure](https://developers.google.com/admob/android/privacy/play-data-disclosure)
+- [Google Mobile Ads data disclosure (Android)](https://developers.google.com/admob/android/privacy/play-data-disclosure)
+- [Google Mobile Ads data disclosure (iOS)](https://developers.google.com/admob/ios/privacy/data-disclosure)
+- [Apple Privacy Policy](https://www.apple.com/legal/privacy/)
 - [Firebase privacy and security](https://firebase.google.com/support/privacy)
 - [Gemini API terms and data handling](https://ai.google.dev/gemini-api/terms)
 - [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy-policy)
@@ -66,7 +72,7 @@ The app does not currently offer a self-service cloud-data deletion tool. For qu
 
 ## 4. Choices
 
-You can choose not to submit feedback, purchase products or use online search. This does not disable all advertising, analytics or network processing during continued app use. Android and Google settings provide advertising-identifier and certain advertising-preference controls. DealList does not currently have a single switch disabling all SDK collection. Manage or cancel subscriptions through the store where you purchased them; uninstalling does not cancel them.
+You can choose not to submit feedback, purchase products or use online search. This does not disable all advertising, analytics or network processing during continued app use. Android and Google settings provide advertising-identifier and certain advertising-preference controls. On iOS, Settings > Privacy & Security > Tracking controls whether apps may request permission to track you across other companies' apps and websites. The current iOS version does not present an in-app tracking-permission request. This system setting does not disable all advertising, identifiers, diagnostics or network requests. On supported iOS versions, you can choose Apple Translation instead of a Google translation option in DealList settings; AI search still uses Gemini. DealList does not currently have a single switch disabling all SDK collection. Manage or cancel subscriptions through the store where you purchased them; uninstalling does not cancel them.
 
 ## 5. Security and international processing
 
